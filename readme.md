@@ -7,3 +7,4 @@ All Credits goes to Hites Sir.
 1. Day 1 :- [Variables and Datatypes](./day1/index.js)
 2. Day 2 :- [Operators](./day2/index.js)
 3. Day 3 :- [Control Structures](./day3/index.js)
+4. Day 4 :- [Loops](./day4/index.js)
