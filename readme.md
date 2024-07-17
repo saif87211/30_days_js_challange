@@ -8,3 +8,4 @@ All Credits goes to Hites Sir.
 2. Day 2 :- [Operators](./day2/index.js)
 3. Day 3 :- [Control Structures](./day3/index.js)
 4. Day 4 :- [Loops](./day4/index.js)
+5. Day 5 :- [Loops](./day5/index.js)
