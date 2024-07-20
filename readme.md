@@ -11,3 +11,4 @@ All Credits goes to Hites Sir.
 5. Day 5 :- [Functions](./day5/index.js)
 6. Day 6 :- [Arrays](./day6/index.js)
 7. Day 7 :- [Objects](./day7/index.js)
+8. Day 8 :- [ES6+Features](./day8/index.js)
