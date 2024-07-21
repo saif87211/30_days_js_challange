@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day9 DOM Manipulation</title>
+  </head>
+  <style>
+    * {
+      color: white;
+      background-color: black;
+    }
+    .large-font {
+      font-size: large;
+    }
+    .content-1 {
+      font-weight: bold;
+      padding: 15px;
+    }
+    .dom,
+    .info {
+      padding: 15px;
+      font-size: 20px;
+    }
+    .dom-image {
+      width: 500px;
+      height: 300px;
+      display: block;
+    }
+    button {
+        padding: 20px;
+        font-size: 20px;
+        background-color: grey;
+    }
+    #add-content{
+        padding: 10px;
+        border: 3px solid;
+        border-color: white;
+    }
+  </style>
+  <body>
+    <h1 id="main-title">title</h1>
+    <p class="content-1 large-font">
+      This is JS 30 Days Challenge. Today is the day 9 of the challenge where
+      the topic is DOM Manipulation.
+    </p>
+    <div class="dom"></div>
+    <div class="info large-font">
+      <p>The list of most used methods for dom Manipulation are:</p>
+      <ul id="dom-methods" class="list">
+        <li>document.getElementById</li>
+        <li>document.getElementsByClassName</li>
+        <li>document.getElementsByTagName</li>
+        <li>document.getElementsByTagName</li>
+        <li>document.querySelector</li>
+      </ul>
+    </div>
+    <div id="false-statement">You don't need script tag in html in order.</div>
+    <div class="large-font">
+      <h2>Mouse Events List</h2>
+      <ul id="mouse-events">
+        <li>click</li>
+        <li>dbclick</li>
+        <li>mousedown</li>
+        <li>mousemove</li>
+        <li>mouseout</li>
+        <li>mouseup</li>
+        <li>keydown</li>
+      </ul>
+    </div>
+    <img class="large-font" src="Farm.png" alt="image" />
+    <button class="button" type="button">Click to Change Content</button>
+    <p id="add-content" class="large-font">
+      Event Listener
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
