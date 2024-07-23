@@ -13,3 +13,4 @@ All Credits goes to Hites Sir.
 7. Day 7 :- [Objects](./day7/index.js)
 8. Day 8 :- [ES6+Features](./day8/index.js)
 9. Day 9 :- [DOM Manipulation](./day9/script.js)
+10. Day 10 :- [Evnet Handling](./day10/script.js)

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day10</title>
+    <style>
+      * {
+        background-color: black;
+        color: white;
+      }
+      .btn {
+        width: 150px;
+        height: 60px;
+        background-color: grey;
+        font-size: 15px;
+        font-weight: bolder;
+      }
+      p {
+        font-size: 18px;
+      }
+      img {
+        border: 5px solid white;
+      }
+      .box {
+        width: 500px;
+        height: 100px;
+        background-color: cornflowerblue;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+      }
+      .container > input {
+        margin: 15px;
+        padding: 5px;
+        width: 500px;
+        height: auto;
+      }
+      .display-section {
+        padding: 5px;
+        border: 1px solid whitesmoke;
+        text-overflow: ellipsis;
+      }
+      form > input,
+      select {
+        color: white;
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        width: 400px;
+      }
+      ul {
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Day 10 : Event Handling</h1>
+
+    <button id="btn-eventintro" class="btn" type="button">
+      Click to change
+    </button>
+    <h2>Event Handler Intro:</h2>
+    <p id="event-intro">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem,
+      temporibus nobis laborum distinctio dolor possimus eos! Dolorem
+      exercitationem,
+    </p>
+
+    <p>Click on image to toggle it's visibility</p>
+    <img id="image" src="image.jpg" alt="image" />
+    <p id="msg"></p>
+    <div id="box" class="box">Box</div>
+
+    <div class="container">
+      <h2>The Typing filed:</h2>
+      <input type="text" name="Type" id="Type" />
+    </div>
+    <p id="display-section" class="display-section"></p>
+
+    <h2>Form</h2>
+
+    <form id="registration" class="form">
+      <label for="fullname">Name:</label>
+      <input id="fullname" name="fullname" type="text" />
+
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email" />
+
+      <label for="dob">DOB</label>
+      <input id="dob" name="dob" type="date" />
+
+      <label for="choice">Select language</label>
+      <select id="choice" name="choice">
+        <option value="">Choose a language</option>
+        <option value="Javascript">Javascript</option>
+        <option value="C#">C#</option>
+        <option value="Java">Java</option>
+      </select>
+
+      <p id="select-value">No Value Selected</p>
+
+      <button class="btn" type="submit">Submit</button>
+    </form>
+
+    <h2>Here is a list of some common HTML events:</h2>
+    <ul id="event-list">
+      <li>onchange</li>
+      <li>onclick</li>
+      <li>onmouseover</li>
+      <li>onkeydown</li>
+      <li>onload</li>
+    </ul>
+
+    <h2>Random Number list to test event daligation</h2>
+    <button id="new-num" class="btn" type="button">
+      Click to add random number
+    </button>
+    <ul id="nubmer-list">
+      <li>98</li>
+      <li>56</li>
+      <li>24</li>
+      <li>65</li>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
