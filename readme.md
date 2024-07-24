@@ -15,3 +15,4 @@ All Credits goes to Hites Sir.
 9. Day 9 :- [DOM Manipulation](./day9/script.js)
 10. Day 10 :- [Event Handling](./day10/script.js)
 11. Day 11 :- [Promises and asyn/await](./day11/index.js)
+12. Day 12 :- [Error Handling](./day12/index.js)
