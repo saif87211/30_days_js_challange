@@ -17,3 +17,4 @@ All Credits goes to Hites Sir.
 11. Day 11 :- [Promises and asyn/await](./day11/index.js)
 12. Day 12 :- [Error Handling](./day12/index.js)
 13. Day 13 :- [Modules](./day13/index.js)
+14. Day 14 :- [Classes](./day14/index.js)
