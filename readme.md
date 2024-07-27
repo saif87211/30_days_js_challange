@@ -18,3 +18,4 @@ All Credits goes to Hites Sir.
 12. Day 12 :- [Error Handling](./day12/index.js)
 13. Day 13 :- [Modules](./day13/index.js)
 14. Day 14 :- [Classes](./day14/index.js)
+15. Day 15 :- [Closures](./day15/index.js)
